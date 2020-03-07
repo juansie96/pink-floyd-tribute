@@ -1,48 +1,53 @@
-.container {
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-    text-align: center;
-}
+/* ---------------------GENERAL----------------- */
 
 body {
-    font-family: 'Comfortaa',
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Poiret One',
     cursive;
 }
 
-h1 {
-    font-size: 60px;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* margin: 4rem 0; */
 }
 
-h2 {
-    font-size: 40px;
-    margin-top: 30px;
+/* ---------------------NAV----------------- */
+
+nav {
+    font-size: 1.5rem;
+    height: 3rem;
+    text-transform: uppercase;
 }
 
-section {
-    margin-top: 50px;
-}
-
-.main-wallpaper img {
-    height: 400px;
-}
-
-#members img {
-    height: 300px;
-}
-
-#members ul {
+nav ul {
     display: flex;
+    justify-content: space-between;
 }
 
-li {
+nav li a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav li a:visited {
+    color: #EEE;
+}
+
+/* ---------------------HEADER----------------- */
+
+header .main-wallpaper {
     display: inline-block;
-    width: 4000px;
+    width: 100%;
 }
 
-.back-top {
-    position: fixed;
-    top: 0;
-    left: 300px;
+header h1 {
+    font-size: 6rem;
+    text-align: right;
 }
 
+header span {
+    font-size: 8rem;
+    color: #9c1e1e
+}
