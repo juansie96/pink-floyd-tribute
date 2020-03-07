@@ -7,15 +7,34 @@ body {
     cursive;
 }
 
+section {
+    padding-top: 8vh;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
     /* margin: 4rem 0; */
 }
 
+    h2 {
+        font-size: 8vh;
+        margin-bottom: 4vh;
+    }
+
+    h2 span {
+        color: #9c1e1e
+    }
+
+    p {
+        font-size: 2vh;
+    }
+
 /* ---------------------NAV----------------- */
 
 nav {
+    position: sticky;
+    top: 0;
     background-color: #9c1e1e
 }
 
@@ -58,5 +77,20 @@ header .main-wallpaper {
     margin-top: 5vh;
     display: inline-block;
     width: 100%;
+}
+
+/* ---------------------MEMBERS----------------- */
+
+#members {
+    text-transform: up;
+}
+
+#members .member-container img {
+    height: 50vh;
+}
+
+#members .member-container {
+    display: flex;
+
 }
 
