@@ -1,0 +1,48 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+body {
+    font-family: 'Comfortaa',
+    cursive;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+section {
+    margin-top: 50px;
+}
+
+.main-wallpaper img {
+    height: 400px;
+}
+
+#members img {
+    height: 300px;
+}
+
+#members ul {
+    display: flex;
+}
+
+li {
+    display: inline-block;
+    width: 4000px;
+}
+
+.back-top {
+    position: fixed;
+    top: 0;
+    left: 300px;
+}
+
