@@ -16,38 +16,47 @@ body {
 /* ---------------------NAV----------------- */
 
 nav {
-    font-size: 1.5rem;
-    height: 3rem;
-    text-transform: uppercase;
+    background-color: #9c1e1e
 }
 
-nav ul {
+nav .container{
+    font-size: 2.3vh;
+    height: 8vh;
+    text-transform: uppercase;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
-nav li a {
+
+nav a {
     text-decoration: none;
     margin-left: 20px;
 }
 
-nav li a:visited {
+nav a:visited {
     color: #EEE;
 }
 
 /* ---------------------HEADER----------------- */
 
-header .main-wallpaper {
-    display: inline-block;
-    width: 100%;
+header {
+    margin-top: 8vh;
 }
 
 header h1 {
-    font-size: 6rem;
+    font-size: 16vh;
     text-align: right;
 }
 
 header span {
-    font-size: 8rem;
+    font-size: 22vh;
     color: #9c1e1e
 }
+
+header .main-wallpaper {
+    margin-top: 5vh;
+    display: inline-block;
+    width: 100%;
+}
+
