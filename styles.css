@@ -90,6 +90,10 @@ header .main-wallpaper {
     margin-bottom: 2rem;
 }
 
+#members p {
+    line-height: 1.5rem;
+}
+
 
 #members .member-container img {
     align-content: center;
@@ -107,7 +111,7 @@ header .main-wallpaper {
     width: 85%;
     align-items: center;
     justify-content: space-between;
-
     margin: 0 auto;
+    margin-bottom: 5rem;
 }
 
