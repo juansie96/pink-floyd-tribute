@@ -82,15 +82,32 @@ header .main-wallpaper {
 /* ---------------------MEMBERS----------------- */
 
 #members {
-    text-transform: up;
 }
 
-#members .member-container img {
-    height: 50vh;
+#members h3 {
+    font-size: 5vh;
+    color: #9c1e1e;
+    margin-bottom: 2rem;
 }
+
+
+#members .member-container img {
+    align-content: center;
+    width: 100%;
+}
+
+#members .member-container div {
+    width: 45%;
+}
+
+
 
 #members .member-container {
     display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
 
+    margin: 0 auto;
 }
 
