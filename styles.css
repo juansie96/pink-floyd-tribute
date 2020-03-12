@@ -86,7 +86,7 @@ header .main-wallpaper {
 
 #members h3 {
     font-size: 5vh;
-    color: #9c1e1e;
+    color: #222831;
     margin-bottom: 2rem;
 }
 
@@ -113,5 +113,8 @@ header .main-wallpaper {
     justify-content: space-between;
     margin: 0 auto;
     margin-bottom: 5rem;
+    background-color: #9c1e1e;
+    padding: 30px;
+    border-radius: 20px;
 }
 
