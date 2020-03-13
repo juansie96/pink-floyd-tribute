@@ -1,5 +1,10 @@
 /* ---------------------GENERAL----------------- */
 
+@font-face {
+    font-family: 'PinkFloydFont';
+    src: url('./floyd.ttf') format('truetype');
+}
+
 body {
     background-color: #222831;
     color: #EEEEEE;
@@ -32,13 +37,13 @@ section {
 
 /* ---------------------NAV----------------- */
 
-nav {
+.menu-principal {
     position: sticky;
     top: 0;
     background-color: #9c1e1e
 }
 
-nav .container{
+.menu-principal .container{
     font-size: 2.3vh;
     height: 8vh;
     text-transform: uppercase;
@@ -48,14 +53,13 @@ nav .container{
 }
 
 
-nav a {
+.menu-principal a {
+    color: #EEE;
     text-decoration: none;
     margin-left: 20px;
 }
 
-nav a:visited {
-    color: #EEE;
-}
+
 
 /* ---------------------HEADER----------------- */
 
@@ -64,6 +68,7 @@ header {
 }
 
 header h1 {
+    
     font-size: 16vh;
     text-align: right;
 }
@@ -104,8 +109,6 @@ header .main-wallpaper {
     width: 45%;
 }
 
-
-
 #members .member-container {
     display: flex;
     width: 85%;
@@ -118,3 +121,37 @@ header .main-wallpaper {
     border-radius: 20px;
 }
 
+/* ---------------------HISTORY----------------- */
+
+#history .history-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#history .history-container p {
+    width: 40%;
+    line-height: 1.5rem;
+}
+
+/* --------------------- DISCOGRAPHY ----------------- */
+#discography .discography-container div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+#discography .discography-container div img {
+    border-radius: 5%;
+    height: 300px;
+    width: 300px;
+    display: block;
+}
+
+#discography h3 {
+    font-size: 3rem;
+}
