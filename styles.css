@@ -138,20 +138,25 @@ header .main-wallpaper {
 #discography .discography-container div {
     display: flex;
     align-items: center;
-    justify-content: space-around;
     margin-bottom: 4rem;
     box-sizing: border-box;
     flex-direction: column;
-    margin-bottom: 2rem;
+    align-content: space-between;
 }
 
 #discography .discography-container div img {
     border-radius: 5%;
+    margin-bottom: 50px;
     height: 300px;
     width: 300px;
-    display: block;
 }
 
-#discography h3 {
+#discography .discography-container h3 {
     font-size: 3rem;
+    margin-bottom: 50px;
 }
+
+#discography .discography-container iframe {
+    display: none;
+}
+
