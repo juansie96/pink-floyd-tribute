@@ -135,6 +135,14 @@ header .main-wallpaper {
 }
 
 /* --------------------- DISCOGRAPHY ----------------- */
+
+#discography .discography-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
 #discography .discography-container div {
     display: flex;
     align-items: center;
@@ -142,17 +150,17 @@ header .main-wallpaper {
     box-sizing: border-box;
     flex-direction: column;
     align-content: space-between;
+    width: 45%;
 }
 
 #discography .discography-container div img {
     border-radius: 5%;
     margin-bottom: 50px;
-    height: 300px;
-    width: 300px;
+    width: 60%;
 }
 
 #discography .discography-container h3 {
-    font-size: 3rem;
+    font-size: 2vw;
     margin-bottom: 50px;
 }
 
