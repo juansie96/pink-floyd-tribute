@@ -1,8 +1,7 @@
 /* ---------------------GENERAL----------------- */
 
-@font-face {
-    font-family: 'PinkFloydFont';
-    src: url('./floyd.ttf') format('truetype');
+html {
+    font-size: 16px;
 }
 
 body {
@@ -12,27 +11,23 @@ body {
     cursive;
 }
 
+
 section {
-    padding-top: 8vh;
+    padding-top: 4rem;
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
-    /* margin: 4rem 0; */
 }
 
 h2 {
-    font-size: 8vh;
-    margin-bottom: 4vh;
+    font-size: 5rem;
+    margin-bottom: 4rem;
 }
 
 h2 span {
     color: #9c1e1e
-}
-
-p {
-    font-size: 18px;
 }
 
 /* ---------------------DESKTOP MENU----------------- */
@@ -120,21 +115,21 @@ p {
 /* ---------------------HEADER----------------- */
 
 header {
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 header h1 {
-    font-size: 16vw;
+    font-size: 9rem;
     text-align: right;
 }
 
 header span {
-    font-size: 22vw;
+    font-size: 13rem;
     color: #9c1e1e;
 }
 
 header .main-wallpaper {
-    margin-top: 5vh;
+    margin-top: 3rem;
     display: inline-block;
     width: 100%;
 }
@@ -143,17 +138,14 @@ header .main-wallpaper {
 
 /* ---------------------MEMBERS----------------- */
 
-#members {
-}
-
 #members h3 {
-    font-size: 5vh;
+    font-size: 5rem;
     color: #222831;
     margin-bottom: 2rem;
 }
 
 #members p {
-    line-height: 1.5rem;
+    line-height: 1.7rem;
 }
 
 
@@ -319,17 +311,32 @@ footer .footer-nav a {
     margin: 0 1rem;
 }
 
-/* --------------------- RESPONSIVE ----------------- */
+/* --------------------- RESPONSIVE MEDIUM SCREEN ----------------- */
 
-@media (max-width: 1260px) {
+@media screen and (min-width: 768px) and (max-width: 1260px) {
+
+    html {
+        font-size: 14px;
+    }
     .container {
         width: 90%;
-        background-color: green;
     }
 }
 
+/* --------------------- RESPONSIVE MOBILE ----------------- */
 
 @media (max-width: 768px) {
+
+    /* ---------------------GENERAL MOBILE ----------------- */
+
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        display: block;
+        width: 100%;
+    }
 
      .menu-principal {
          display: none;
@@ -341,28 +348,62 @@ footer .footer-nav a {
 
      /* ---------------------HEADER MOBILE ----------------- */
 
-     .container {
-         width: 100%;
-     }
-
      header {
-         margin-top: 30px;
+         margin-top: 0px;
      }
 
      header h1 {
-         font-size: 16vh;
-         text-align: right;
+         font-size: 5rem;
      }
 
      header span {
-         font-size: 22vh;
-         color: #9c1e1e;
+         font-size: 9rem;
      }
 
-     header .main-wallpaper {
-         margin-top: 5vh;
-         display: inline-block;
+     /* --------------------- MEMBERS MOBILE ----------------- */ 
+     
+
+     #members .member-container h3 {
+        margin-top: 2rem;
+     }
+
+     #members .member-container div {
+         width: 90%;
+     }
+
+     #members .member-container {
+         flex-direction: column;
+         width: 90%;
+         padding: 30px 10px;
+         font-size: 1.3rem;
+     }
+
+     /* --------------------- DISCOGRAPHY ----------------- */
+
+
+     #discography .discography-container {
+         flex-direction: column;
+         margin-top: 3rem;
+         align-items: center;
+     }
+
+     #discography .discography-container div {
          width: 100%;
+     }
+
+     #discography .discography-container div img {
+         border-radius: 5%;
+         margin-bottom: 2rem;
+         width: 60%;
+     }
+
+     #discography .discography-container h3 {
+         font-size: 2rem;
+         margin-bottom: 50px;
+     }
+
+     #discography .discography-container iframe {
+         display: none;
      }
 
 
