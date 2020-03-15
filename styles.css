@@ -22,18 +22,18 @@ section {
     /* margin: 4rem 0; */
 }
 
-    h2 {
-        font-size: 8vh;
-        margin-bottom: 4vh;
-    }
+h2 {
+    font-size: 8vh;
+    margin-bottom: 4vh;
+}
 
-    h2 span {
-        color: #9c1e1e
-    }
+h2 span {
+    color: #9c1e1e
+}
 
-    p {
-        font-size: 2vh;
-    }
+p {
+    font-size: 16px;
+}
 
 /* ---------------------NAV----------------- */
 
@@ -123,41 +123,54 @@ header .main-wallpaper {
 
 /* ---------------------HISTORY----------------- */
 
+#history {
+    background-color: #9c1e1e;
+    transform: skew(0, -5deg);
+    margin-top: 13rem;
+}
+
+#history h2 {
+    transform: skew(0, 5deg);
+    margin-top: 4rem;
+}
+
+#history h2 span {
+    color: #222831;
+}
+
 #history .history-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
+    transform: skew(0, 5deg);
+}
+
+#history .history-container img {
+    width: 30%;
 }
 
 #history .history-container p {
-    width: 40%;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    width: 70%;
+    margin-bottom: 7rem;
 }
 
 /* --------------------- DISCOGRAPHY ----------------- */
 
 #discography {
-    background-color: #9c1e1e;
-    transform: skew(0,-5deg);
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 #discography h2 {
     margin-top: 4rem;
-    transform: skew(0, 5deg);
 }
-
-#discography h2 span {
-    color: #222831;
-}
-
 
 #discography .discography-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center;
-    transform: skew(0, 5deg);
 }
 
 #discography .discography-container div {
