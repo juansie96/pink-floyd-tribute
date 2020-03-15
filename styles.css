@@ -38,7 +38,7 @@ p {
 /* ---------------------DESKTOP MENU----------------- */
 
 .menu-principal {
-    position: static;
+    position: sticky;
     top: 0;
     background-color: #9c1e1e
 }
@@ -62,14 +62,15 @@ p {
     height: 75%;
 }
 
-.menu-principal {
-    display: none;
-}
-
 /* ---------------------MOBILE MENU----------------- */
 
 .mobile-menu {
-    background-color: #9c1e1e
+    display: none;
+    position: sticky;
+    top: 0;
+    background-color: #9c1e1e;
+    color: white;
+    margin-bottom: 9rem;
 }
 
 
@@ -84,16 +85,26 @@ p {
 
 
 .nav-hamburguesa::before {
-    color: white;
     font-size: 2rem;
     content: '☰';
     margin-left: 2rem;
 }
 
 .nav-links {
-    background-color: rgb(220,0,0,0.6);
     width: 100%;
+    background-color: #9c1e1e;
     display: none;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.nav-links li {
+    margin: 20px 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
 }
 
 #hamburguesa {
@@ -109,16 +120,16 @@ p {
 /* ---------------------HEADER----------------- */
 
 header {
-    margin-top: 8vh;
+    margin-top: 30px;
 }
 
 header h1 {
-    font-size: 16vh;
+    font-size: 16vw;
     text-align: right;
 }
 
 header span {
-    font-size: 22vh;
+    font-size: 22vw;
     color: #9c1e1e;
 }
 
@@ -310,8 +321,49 @@ footer .footer-nav a {
 
 /* --------------------- RESPONSIVE ----------------- */
 
-@media and screen (max-width: 1024px) {
-     
+@media (max-width: 1260px) {
+    .container {
+        width: 90%;
+        background-color: green;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+     .menu-principal {
+         display: none;
+     }
+
+     .mobile-menu {
+         display: block;
+     }
+
+     /* ---------------------HEADER MOBILE ----------------- */
+
+     .container {
+         width: 100%;
+     }
+
+     header {
+         margin-top: 30px;
+     }
+
+     header h1 {
+         font-size: 16vh;
+         text-align: right;
+     }
+
+     header span {
+         font-size: 22vh;
+         color: #9c1e1e;
+     }
+
+     header .main-wallpaper {
+         margin-top: 5vh;
+         display: inline-block;
+         width: 100%;
+     }
 
 
 }
