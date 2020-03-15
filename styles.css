@@ -224,3 +224,27 @@ header .main-wallpaper {
     margin: 4rem 0;
 }
 
+/* --------------------- FOOTER ----------------- */
+
+footer .footer-nav {
+    background-color: #9c1e1e;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+}
+
+footer .footer-nav p {
+    font-size: 1.3rem;
+}
+
+footer .right-side {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer-nav a {
+    color: #EEEEEE;
+    margin: 0 1rem;
+}
