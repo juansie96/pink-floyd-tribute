@@ -35,7 +35,7 @@ p {
     font-size: 18px;
 }
 
-/* ---------------------NAV----------------- */
+/* ---------------------DESKTOP MENU----------------- */
 
 .menu-principal {
     position: static;
@@ -53,7 +53,6 @@ p {
     justify-content: space-between;
 }
 
-
 .menu-principal a {
     color: #EEE;
     text-decoration: none;
@@ -62,6 +61,49 @@ p {
 .menu-principal img {
     height: 75%;
 }
+
+.menu-principal {
+    display: none;
+}
+
+/* ---------------------MOBILE MENU----------------- */
+
+.mobile-menu {
+    background-color: #9c1e1e
+}
+
+
+.nav-logo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.nav-hamburguesa::before {
+    color: white;
+    font-size: 2rem;
+    content: '☰';
+    margin-left: 2rem;
+}
+
+.nav-links {
+    background-color: rgb(220,0,0,0.6);
+    width: 100%;
+    display: none;
+}
+
+#hamburguesa {
+    display: none;
+}
+
+#hamburguesa:checked+.nav-links {
+    display: block;
+}
+
 
 
 /* ---------------------HEADER----------------- */
@@ -267,3 +309,9 @@ footer .footer-nav a {
 }
 
 /* --------------------- RESPONSIVE ----------------- */
+
+@media and screen (max-width: 1024px) {
+     
+
+
+}
