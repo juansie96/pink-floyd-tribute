@@ -45,7 +45,7 @@ p {
 
 .menu-principal .container{
     width: 90%;
-    font-size: 2.3vh;
+    font-size: 1.3rem;
     height: 5rem;
     text-transform: uppercase;
     display: flex;
@@ -204,15 +204,6 @@ header .main-wallpaper {
 
 /* --------------------- VIDEOS ----------------- */
 
-#videos h2 {
-    margin-left: 10%;
-}
-
-#videos .videos-container div {
-    width: 100%;
-    background-color: #9c1e1e;
-    text-align: center;
-}
 
 #videos .videos-container {
     display: flex;
@@ -221,8 +212,34 @@ header .main-wallpaper {
 }
 
 #videos .videos-container iframe {
-    margin: 4rem 0;
+    margin: 3rem 0;
 }
+
+#videos .videos-container div {
+    width: 100%;
+    background-color: #9c1e1e;
+    text-align: center;
+}
+
+#videos .videos-container .segundo {
+   clip-path: polygon(50% 15%, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 85%, 0 100%, 0% 70%, 0% 35%, 0 0);
+   padding: 150px 0;
+}
+
+#videos .videos-container .primero {
+    clip-path: polygon(52% 0, 100% 0, 100% 35%, 100% 70%, 100% 100%, 50% 85%, 0 100%, 0% 70%, 0% 35%, 0 0);
+    padding: 50px 0 150px;
+}
+
+#videos h2 {
+    margin-left: 10%;
+    text-align: left;
+}
+
+#videos h2 span {
+    color: #222831;
+}
+
 
 /* --------------------- FOOTER ----------------- */
 
@@ -248,3 +265,5 @@ footer .footer-nav a {
     color: #EEEEEE;
     margin: 0 1rem;
 }
+
+/* --------------------- RESPONSIVE ----------------- */
