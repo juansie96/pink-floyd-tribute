@@ -38,7 +38,7 @@ section {
 /* ---------------------NAV----------------- */
 
 .menu-principal {
-    position: sticky;
+    position: static;
     top: 0;
     background-color: #9c1e1e
 }
@@ -75,7 +75,7 @@ header h1 {
 
 header span {
     font-size: 22vh;
-    color: #9c1e1e
+    color: #9c1e1e;
 }
 
 header .main-wallpaper {
@@ -136,11 +136,28 @@ header .main-wallpaper {
 
 /* --------------------- DISCOGRAPHY ----------------- */
 
+#discography {
+    background-color: #9c1e1e;
+    transform: skew(0,-5deg);
+    margin-top: 5rem;
+}
+
+#discography h2 {
+    margin-top: 4rem;
+    transform: skew(0, 5deg);
+}
+
+#discography h2 span {
+    color: #222831;
+}
+
+
 #discography .discography-container {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5rem;
     justify-content: center;
+    transform: skew(0, 5deg);
 }
 
 #discography .discography-container div {

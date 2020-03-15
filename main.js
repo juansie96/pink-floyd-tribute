@@ -8,3 +8,13 @@ function showFrame(element) {
     }
     
 }
+
+function bigImg(image) {
+    image.style = "cursor:pointer";
+    image.style.width = "65%";
+    
+}
+
+function normalImg(image) {
+    image.style.width = "60%";
+}
