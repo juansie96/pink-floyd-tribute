@@ -18,3 +18,7 @@ function bigImg(image) {
 function normalImg(image) {
     image.style.width = "60%";
 }
+
+$('#id').click(function() {
+    console.log('scrolling')
+});
