@@ -48,11 +48,12 @@ p{
     -moz-border-radius: 35px;
     border-radius: 35px;
     display: none;
-    -webkit-transition: all 0.3s linear;
+    -webkit-transition: all 3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    transition: all 3s ease;
+    z-index: 1;
 }
 
 #top i {
@@ -81,8 +82,7 @@ p{
 /* ---------------------DESKTOP MENU----------------- */
 
 .menu-principal {
-    position: sticky;
-    z-index: 1000;
+    z-index: 1;
     top: 0;
     background-color: #9c1e1e
 }
@@ -110,11 +110,10 @@ p{
 
 .mobile-menu {
     display: none;
-    position: sticky;
     top: 0;
     background-color: #9c1e1e;
     color: white;
-    margin-bottom: 9rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -135,6 +134,7 @@ p{
 }
 
 .nav-links {
+    z-index: 1;
     width: 100%;
     background-color: #9c1e1e;
     display: none;
@@ -278,6 +278,7 @@ header .main-wallpaper {
     box-sizing: border-box;
     flex-direction: column;
     align-content: space-between;
+    text-align: center;
     width: 45%;
 }
 
@@ -384,7 +385,7 @@ footer .footer-nav a {
 
     .container {
         display: block;
-        width: 100%;
+        width: 95%;
     }
 
      .menu-principal {
@@ -393,6 +394,10 @@ footer .footer-nav a {
 
      .mobile-menu {
          display: block;
+     }
+
+     h2 {
+         font-size: 3.5rem;
      }
 
      /* ---------------------HEADER MOBILE ----------------- */
@@ -414,6 +419,7 @@ footer .footer-nav a {
 
      #members .member-container h3 {
         margin-top: 2rem;
+        font-size: 2rem;
      }
 
      #members .member-container div {
