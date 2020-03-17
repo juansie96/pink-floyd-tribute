@@ -1,3 +1,6 @@
+
+/* -------------SHOW FRAME WHEN ALBUM IMG CLICKED-------------*/
+
 function showFrame(element) {
     var frame = document.getElementById(element.id+'-frame');
 
@@ -9,6 +12,8 @@ function showFrame(element) {
     
 }
 
+/* -------------INCREASE SIZE OF THE ALBUM IMG ON HOVER--------------*/
+
 function bigImg(image) {
     image.style = "cursor:pointer";
     image.style.width = "65%";
@@ -18,6 +23,8 @@ function bigImg(image) {
 function normalImg(image) {
     image.style.width = "60%";
 }
+
+/* -------------BACK TO TOP BUTTON FUNCTIONALITIES--------------*/
 
 // ===== Scroll to Top ==== 
 $(window).scroll(function () {
@@ -32,3 +39,5 @@ $('#top').click(function () { // When arrow is clicked
         scrollTop: 0 // Scroll to top of body
     }, 500);
 });
+
+/* -------------HOVER STYLING ON MOBILE MENU--------------*/
