@@ -308,6 +308,8 @@ header .main-wallpaper {
 
 #videos .videos-container iframe {
     margin: 3rem 0;
+    width: 600px;
+    height: 400px;
 }
 
 #videos .videos-container div {
@@ -433,7 +435,7 @@ footer .footer-nav a {
          font-size: 1.3rem;
      }
 
-     /* --------------------- DISCOGRAPHY ----------------- */
+     /* --------------------- DISCOGRAPHY MOBILE ----------------- */
 
 
      #discography .discography-container {
@@ -447,7 +449,6 @@ footer .footer-nav a {
      }
 
      #discography .discography-container div img {
-         border-radius: 5%;
          margin-bottom: 2rem;
          width: 60%;
      }
@@ -455,6 +456,14 @@ footer .footer-nav a {
      #discography .discography-container h3 {
          font-size: 2rem;
          margin-bottom: 50px;
+     }
+
+     /* --------------------- VIDEOS MOBILE ----------------- */
+
+     #videos .videos-container iframe {
+         margin: 3rem 0;
+         width: 370px;
+         height: 250px;
      }
 
 
